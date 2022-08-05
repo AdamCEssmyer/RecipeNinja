@@ -27,6 +27,9 @@ const getPopular = async () => {
     return(
        <Wrapper>
         <h3>Popular Picks</h3>
+
+        <Splide>
+
         {popular.map((recipe) => {
             return(
                 <Card>
@@ -35,6 +38,7 @@ const getPopular = async () => {
                 </Card>
             );
         })}
+        </Splide>
        </Wrapper>
     );
  })}
