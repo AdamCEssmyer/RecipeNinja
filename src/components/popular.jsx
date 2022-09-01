@@ -39,7 +39,8 @@ const getPopular = async () => {
                 <SplideSlide>
                 <Card>
                     <p>{recipe.title}</p>
-                    <img src={recipe.image} alt="recipe.title"  />
+                    <img src={recipe.image} alt={"recipe.title"}  />
+                    <Gradient />
                 </Card>
                 </SplideSlide>
             );
